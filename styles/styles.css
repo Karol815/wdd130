@@ -1,6 +1,49 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+    padding: 1rem;
+}
+
+nav a {
+    color: white;
+    padding: 1rem;
+    display: block;
+    text-decoration: none;
+}
+
 /* Main content */
 main {
     max-width: 840px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #333;
+    margin: 1rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.5rem;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 2px;
+    box-shadow: 0 0 10px gray;
+    margin: 0 0 1rem 1rem;
+}
+
+/* Paragraphs */
+p {
+    padding: 0;
+    margin: 1rem 0;
 }
 
 /* Aside section */
@@ -18,17 +61,6 @@ aside {
 aside img {
     width: 200px;
     height: auto;
-}
-
-/* Main image */
-main img {
-    width: 150px;
-    height: auto;
-}
-
-/* Paragraphs */
-p {
-    padding: 0;
 }
 
 /* Footer */
